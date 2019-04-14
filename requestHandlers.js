@@ -9,13 +9,13 @@ function start(response, request) {
   let body = /*html*/
   `<html>
   <head>
-  <meta http-equiv='Content-Type' content='text/html'
-  charset=UTF-8' />
+  <meta http-equiv="Content-Type" content="text/html"
+  charset="UTF-8" />
   </head>
   <body>
-  <form action='/upload' method='post'>
-  <input type='file' name='upload'>
-  <input type='submit' value='upload file' />
+  <form action="/upload" method="post">
+  <input type="file" name="upload">
+  <input type="submit" value="upload file" />
   </form>
   </body>
   </html>`;
