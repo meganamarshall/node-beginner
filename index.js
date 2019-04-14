@@ -1,1 +1,3 @@
-console.log('Hello World');
+const server = require('./server');
+
+server.start();
