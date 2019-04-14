@@ -1,6 +1,14 @@
+const exec = require('child-process').exec;
+
 function start() {
   console.log('request handler "start" was called');
-  return 'hello start';
+  const content = 'empty';
+
+  exec('ls -lah', function(error, stdout, stderr) {
+    content = stdout;
+  });
+
+  return content;
 }
 
 function upload() {
