@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/meganamarshall/node-beginner/issues"
   },
-  "homepage": "https://github.com/meganamarshall/node-beginner#readme"
+  "homepage": "https://github.com/meganamarshall/node-beginner#readme",
+  "dependencies": {
+    "formidable": "^1.2.1"
+  }
 }
