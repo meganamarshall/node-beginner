@@ -1,3 +1,4 @@
 const server = require('./server');
+const route = require('./router');
 
-server.start();
+server.start(router.route);
